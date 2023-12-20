@@ -70,8 +70,10 @@ body{
 }
 
 .egg-right{
-
+    width: 50%;
 }
 
 .second-heading{
+    font-weight: bold;
+    font-size: 48px;
 }
