@@ -1,6 +1,7 @@
 :root{
     --white: #ffffff;
     --black: #000000;
+    --grey: #888692;
 }
 
 body{
@@ -34,6 +35,11 @@ body{
     font-size: 20px;
 }
 
+.nav-link:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .nav-link.contact{
     color: var(--black);
     background: var(--white);
@@ -44,6 +50,11 @@ body{
     text-transform: uppercase;
 }
 
+.nav-link.contact:hover{
+    background-color: black;
+    color: white;
+}
+
 #image-header{
     z-index: -1;
     position: absolute;
@@ -52,7 +63,7 @@ body{
 
 .main-heading{
     text-align: center;
-    font-size: 48px;
+    font-size: 47px;
     color: var(--white)
 }
 
@@ -62,18 +73,280 @@ body{
 }
 
 .creatives-container{
-    height: 1000px;
+    height: 934px;
+    padding: 0;
 }
 
 .band-container{
     display: flex;
+    height: 793px;
+}
+
+.band-left{
+    width: 50%;
+    text-align: left;
+    padding-bottom: 150px;
+    padding-left: 0px;
+    padding-top: 150px;
+    padding-right: 0;
 }
 
 .egg-right{
     width: 50%;
 }
 
+.egg-right img{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
 .second-heading{
     font-weight: bold;
     font-size: 48px;
+}
+
+.desc{
+    font-size: 22px;
+    color: rgb(128, 128, 128);
+    text-align: left;
+    margin-left: 220px;
+}
+
+.goblet-left{
+    width: 50%;
+}
+
+.goblet-left img{
+    width: 100%;
+    height: auto;
+}
+
+.stand-container{
+    display: flex;
+    height: 793px;
+}
+
+.audience-right{
+    width: 50%;
+    text-align: left;
+    padding-bottom: 150px;
+    padding-left: 0px;
+    padding-top: 150px;
+    padding-right: 0px;
+}
+
+.design-photo-container{
+    display: flex;
+}
+
+.graphic-design{
+    width: 50%;
+    background-image: url("sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg");
+    background-size: 100%;
+    height: auto;
+    padding: 500px 200px 200px;
+    background-repeat: no-repeat;
+}
+
+.photography{
+    width: 50%;
+    background-image: url("sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg");
+    background-size: 100%;
+    height: auto;
+    padding: 500px 200px 200px;
+    background-repeat: no-repeat;
+}
+
+.client-testamonial-heading{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 34px;
+    color: #acadaf;
+}
+
+.client-container{
+    display: flex;
+}
+
+.client-card-t h3, h4, p{
+    text-align: center;
+}
+
+.client-card-j h3, h4, p{
+    text-align: center;
+}
+
+.client-card-e h3, h4, p{
+    text-align: center;
+}
+
+.client-card-t img{
+    border-radius: 100px;
+    width: 100px;
+}
+
+.client-card-j img{
+    border-radius: 100px;
+    width: 100px;
+}
+
+.client-card-e img{
+    border-radius: 100px;
+    width: 100px;
+}
+
+.client-card-e{
+    margin-left: 100px;
+}
+
+.client-card-j{
+    margin-right: 100px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.gallery{
+    display: flex;
+    margin-top: 150px;
+}
+
+.gallery-item img{
+    width: 100%;
+    display: flex;
+}
+
+.client-occupation{
+    color: #888692;
+}
+
+.photography-heading{
+    text-align: center;
+    color: #124c61;
+}
+
+.graphic-heading{
+    text-align: center;
+    color: #265b4f;
+}
+
+.desc-graphic{
+    color: #428071;
+    font-size: 20px;
+}
+
+.desc-photo{
+    color: #146083;
+    font-size: 20px;
+}
+
+.second-heading-left{
+    font-family: 'Lemon', serif;
+    font-size: 34px;
+    margin-left: 220px;
+    color: #272e40;
+}
+
+.second-heading-right{
+    font-family: 'Lemon', serif;
+    font-size: 34px;
+    margin-left: 220px;
+    color: #272e40;
+}
+
+.learn-more{
+    margin-left: 220px;
+    text-decoration: underline #fef3bf 8px;
+    font-family: 'Lemon', serif;
+    color: #272e40;
+}
+
+.learn-more:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.clients{
+    background-color: #ffffff;
+}
+
+.main-footer{
+    background-color: #90d4c5;
+    height: 400px;
+}
+
+.main-footer-logo{
+    text-align: center;
+    padding: 40px;
+    font-weight: bolder;
+    font-size: 32px;
+    color: #2d7665;
+}
+
+.footer-links{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    padding-left: 710px;
+}
+
+.footer-links:hover{
+    cursor: pointer;
+}
+
+.footer-link{
+    font-size: 20px;
+    margin-inline: 28px;
+    color: #2d7665;
+    padding-bottom: 50px;
+}
+
+.social-icons{
+    list-style: none;
+    padding-left: 45.5%;
+    display: flex;
+    letter-spacing: 30px;
+    font-size: 30px;
+    color: #2d7665;
+
+}
+
+.fa-facebook-official{
+    color: #2d7665;
+    margin-right: 20px;
+}
+
+.fa-instagram{
+    color: #2d7665;
+    margin-right: 20px;
+}
+
+.fa-pinterest{
+    color: #2d7665;
+    margin-right: 20px;
+}
+
+.fa-twitter{
+    color: #2d7665;
+    margin-right: 20px;
+}
+
+.fa-facebook-official:hover{
+    cursor: pointer;
+}
+
+.fa-instagram:hover{
+    cursor: pointer;
+}
+
+.fa-pinterest:hover{
+    cursor: pointer;
+}
+
+.fa-twitter:hover{
+    cursor: pointer;
 }
