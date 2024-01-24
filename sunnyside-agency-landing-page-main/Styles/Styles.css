@@ -442,5 +442,20 @@ header {
     .graphic-design .desc {
         padding: 20px;
     }
+    .client-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .client-card{
+        width: 50%;
+    }
+    .gallery{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-links{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
